@@ -1,0 +1,27 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "eslint.validate": [
+    "json"
+  ],
+  "editor.snippetSuggestions": "top",
+  "editor.formatOnPaste": false,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.tabCompletion": "on",
+  "emmet.triggerExpansionOnTab": true,
+  "explorer.sortOrder": "type",
+  "stylelint.config": null,
+  "stylelint.validate": [
+    "css",
+    "postcss",
+    "scss"
+  ]
+}

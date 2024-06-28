@@ -1,0 +1,13 @@
+{
+  "name": "@firefly-admin/tools",
+  "$schema": "node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "tools/src",
+  "targets": {
+    "type-check": {
+      "executor": "@firefly-admin/firefly-plugin:type-check",
+      "options": {
+        "tsConfig": "tsconfig.tools.json"
+      }
+    }
+  }
+}

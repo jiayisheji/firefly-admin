@@ -1,0 +1,12 @@
+# dependencies
+node_modules
+
+# Public Assets Folder
+public
+assets
+
+# Jest
+coverage
+
+# This file naturally might break conventional rules
+global.d.ts
