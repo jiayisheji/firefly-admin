@@ -1,0 +1,9 @@
+{
+  "generators": {
+    "type-check": {
+      "factory": "./src/generators/type-check/generator",
+      "schema": "./src/generators/type-check/schema.json",
+      "description": "type-check generator"
+    }
+  }
+}

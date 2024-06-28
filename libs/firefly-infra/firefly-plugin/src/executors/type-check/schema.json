@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/schema",
+  "version": 2,
+  "title": "TypeCheck executor",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "tsConfig": {
+      "type": "string",
+      "description": "The `tsConfig` attribute to use for tsconfig.json filename."
+    }
+  },
+  "required": []
+}
